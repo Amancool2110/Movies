@@ -18,7 +18,6 @@ import com.capgemini.onlinemovie_service.MovieServiceImpl;
 
 
 @RestController
-@RequestMapping("/movie")
 public class MovieController {
 @Autowired
 MovieServiceImpl service;
